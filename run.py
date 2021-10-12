@@ -11,5 +11,5 @@ app_run = DispatcherMiddleware(application, {
                               )    
 
 if __name__ == '__main__':
-    run_simple('127.0.0.1', 8000, app_run)
+    run_simple('0.0.0.0', 0000, app_run)
                       
